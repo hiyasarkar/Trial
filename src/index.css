@@ -2,7 +2,7 @@
 
 body {
   background-color: #D9CFC7;
-  font-family: "Times New Roman", Times, serif;
+  font-family: monospace;
 }
 
 html, body, #root {
@@ -14,4 +14,12 @@ html, body, #root {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card-component{
+  background-color: #668ba4;
+  height: 500px;
+  width: 900px;
+  padding: 4rem;
+  border-radius: 0.75rem;
 }
